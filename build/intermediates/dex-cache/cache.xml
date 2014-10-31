@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/sergio/desarrollo/android_prj/AndroidMetering/app/build/intermediates/pre-dexed/debug/androidplot-core-0.5.1-b1c334e5a8bfb8b7f434e2610bc1d57a6b5797b0.jar"
+        jar="/home/sergio/desarrollo/android_prj/AndroidMetering/app/libs/androidplot-core-0.5.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4609d5e763353cd48d57e13e3c5ba33fbf7b762c"/>
+
+</pre-dex-items>

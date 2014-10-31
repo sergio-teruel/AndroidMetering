@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/mnu_option_launch"
+	    	android:title="@string/mnu_option_launch"
+	    	android:icon="@drawable/ic_action_option"
+	    	android:showAsAction="ifRoom">
+		<menu>
+			<item android:id="@+id/mnu_show_gallery" android:title="@string/mnu_show_gallery" android:icon="@drawable/ic_gallery"/>
+		    <item android:id="@+id/mnu_take_photo" android:title="@string/mnu_take_photo" android:icon="@drawable/ic_camera"/>
+			<item android:id="@+id/mnu_show_map" android:title="@string/mnu_show_map" android:icon="@drawable/ic_map"/>
+			<item android:id="@+id/mnu_save_localization" android:title="@string/mnu_save_localization" android:icon="@drawable/ic_pin"/>
+			<item android:id="@+id/mnu_show_attachment" android:title="@string/mnu_show_attachment" android:icon="@drawable/ic_attach"/>
+			<item android:id="@+id/mnu_manual_issue" android:title="@string/mnu_manual_issue" android:icon="@drawable/alerts_and_states_warning"/>
+			<item android:id="@+id/mnu_delete_reading" android:title="@string/mnu_delete_reading" android:icon="@drawable/alerts_and_states_warning"/>
+		</menu>
+	</item>
+	<item android:id="@+id/mnu_accept" 
+       android:title="@string/mnu_accept"
+       android:icon="@drawable/ic_action_accept"
+       android:showAsAction="ifRoom|withText" />
+</menu>

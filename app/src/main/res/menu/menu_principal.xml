@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 	<item android:id="@+id/mnu_filtrar_acometidas" android:title="@string/filtrar" android:icon="@drawable/filter"></item> -->
+<!-- 	<item android:id="@+id/mnu_cargar_datos" android:title="@string/cargar_datos"></item> -->
+<!-- 	<item android:id="@+id/mnu_datos_demo" android:title="DEMO"/> -->
+<!-- 	<item android:id="@+id/mnu_busqueda"></item> -->
+<!-- 	<item android:id="@+id/mnu_general_filter" android:title="@string/mnu_general_filter" android:icon="@drawable/filter"></item> -->
+<!-- 	<item android:id="@+id/mnu_options" android:title="@string/mnu_options" android:icon="@drawable/wap_gear"/> -->
+	
+	<item android:id="@+id/mnu_option_launch"
+	    	android:title="@string/mnu_option_launch"
+	    	android:icon="@drawable/ic_action_option"
+	    	android:showAsAction="ifRoom">
+		<menu>
+			<item android:id="@+id/mnu_general_filter" android:title="@string/mnu_general_filter" android:icon="@drawable/filter"/>
+<!-- 			<item android:id="@+id/mnu_datos_demo" android:title="DEMO"/> -->
+			<item android:id="@+id/mnu_options" android:title="@string/mnu_options" android:icon="@drawable/wap_gear"/>
+			<item android:id="@+id/mnu_all_supply_points" android:title="@string/mnu_all_supply_points" android:checkable="True"/>
+			<item android:id="@+id/mnu_filter_gps" android:title="@string/mnu_filter_gps" android:checkable="True"/>
+		</menu>
+	</item>
+
+</menu>

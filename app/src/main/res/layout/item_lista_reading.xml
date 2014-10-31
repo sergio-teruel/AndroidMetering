@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/layInfoReading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="@color/cream"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/txtReadingSupply"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mar Blau 15, Libros 12100"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/textContract"
+                android:id="@+id/txtReadingContract"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Contrato: CR/2012/00020"
+                android:textStyle="italic" />
+
+            <TextView
+                style="@style/textMeter"
+                android:id="@+id/txtReadingMeter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Contador: KML5998654" />
+
+            <TextView
+                style="@style/textPartner"
+                android:id="@+id/txtReadingPartner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sancho Panza ES19010871Z" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layInfoReadingImg"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center|fill_vertical"
+            android:background="@color/cream"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgReadingInterior"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <ImageView
+                android:id="@+id/imgReadingReaded"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <ImageView
+                android:id="@+id/imgReadingIssue"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

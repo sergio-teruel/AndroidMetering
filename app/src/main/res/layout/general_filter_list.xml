@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layGeneralFilterList"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtGeneralFilterList"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/GeneralFilterList_search_hint" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvGeneralFilterList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/cream" >
+
+    </ListView>
+
+</LinearLayout>
